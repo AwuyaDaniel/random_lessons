@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "codygo"
+version = "0.1.0"
+description = "Learing Poetry, Fastapi, Pydantic, Advanced Typing, Async IO and Asynch Programming"
+authors = ["Awuya Daniel"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.108.0"
+pydantic = "^2.5.3"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
